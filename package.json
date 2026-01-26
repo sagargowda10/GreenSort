@@ -1,0 +1,12 @@
+{
+  "name": "infothon2026-master",
+  "version": "1.0.0",
+  "description": "--- noteId: \"cee72050d07511f09e25153ee632e0d4\" tags: []",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
