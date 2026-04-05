@@ -45,9 +45,8 @@ app.use('/uploads', express.static(path.join(process.cwd(), 'uploads')));
 // --- ERROR HANDLERS ---
 app.use(notFound);
 app.use(errorHandler);
-
 // Start server
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () =>
-  console.log(`Server is running on http://localhost:${PORT}`)
+  console.log(`Server is running on https://greensort.onrender.com${path}`)
 );

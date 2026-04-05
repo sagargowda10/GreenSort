@@ -96,7 +96,7 @@ const MapPage = () => {
     setLoading(true);
     setShowSearchHereBtn(false); // Hide button after searching
     try {
-      const { data } = await axios.get(`/api/locations?lat=${lat}&lng=${lng}`);
+      const { data } = await axios.get(`https://greensort.onrender.com/api/locations?lat=${lat}&lng=${lng}`);
       
       // Calculate distance for each location
       const enhancedData = data.map(loc => ({
